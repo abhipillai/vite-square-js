@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="/app.css" rel="stylesheet" />
+    <style>
+      #apple-pay-button {
+        height: 48px;
+        width: 100%;
+        display: inline-block;
+        -webkit-appearance: -apple-pay-button;
+        -apple-pay-button-type: plain;
+        -apple-pay-button-style: black;
+      }
+    </style>
+    <script type="module" src="/index.js"></script>
+  </head>
+  <body>
+    <form id="payment-form">
+      <div id="card-container"></div>
+      <button id="card-button" type="button">Pay $1.00</button>
+    </form>
+    <div id="payment-status-container"></div>
+  </body>
+</html>
