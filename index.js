@@ -13,7 +13,7 @@ function loadSquareScript() {
     // Create script element
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://staging.web.squarecdn.com/v1/square.js';
+    script.src = 'https://staging.web.squarecdn.com/1.78.0-canary.sha-8de28e43/square.js';
     script.crossOrigin = 'anonymous' // This will be proxied to https://localhost:1779
     
     // Handle successful load
